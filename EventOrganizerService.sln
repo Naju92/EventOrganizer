@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4AC89CBD-0B58-4CF0-9C0A-974DE6CC744E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02A8783E-2855-414B-A47D-F3D747AB0C5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsControllerTests", "tests\Web\Controllers\EventsController\EventsControllerTests.csproj", "{D6280B7A-3024-4CCD-8FB5-EDD68575542E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D29E3FE3-9182-4A7C-9CD0-355A6EC8B91D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{0AEC5814-ABC7-4C7B-A857-7A6163A58812}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventOrganizer", "src\EventOrganizerApi\EventOrganizer.csproj", "{0322FC57-64E2-4FEC-B5D3-F37AFF0B587A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6280B7A-3024-4CCD-8FB5-EDD68575542E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6280B7A-3024-4CCD-8FB5-EDD68575542E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6280B7A-3024-4CCD-8FB5-EDD68575542E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6280B7A-3024-4CCD-8FB5-EDD68575542E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0322FC57-64E2-4FEC-B5D3-F37AFF0B587A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0322FC57-64E2-4FEC-B5D3-F37AFF0B587A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0322FC57-64E2-4FEC-B5D3-F37AFF0B587A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0322FC57-64E2-4FEC-B5D3-F37AFF0B587A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6280B7A-3024-4CCD-8FB5-EDD68575542E} = {0AEC5814-ABC7-4C7B-A857-7A6163A58812}
+		{D29E3FE3-9182-4A7C-9CD0-355A6EC8B91D} = {02A8783E-2855-414B-A47D-F3D747AB0C5C}
+		{0AEC5814-ABC7-4C7B-A857-7A6163A58812} = {D29E3FE3-9182-4A7C-9CD0-355A6EC8B91D}
+		{0322FC57-64E2-4FEC-B5D3-F37AFF0B587A} = {4AC89CBD-0B58-4CF0-9C0A-974DE6CC744E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C33F895F-2FBC-41C4-A520-61421881A6BD}
+	EndGlobalSection
+EndGlobal
